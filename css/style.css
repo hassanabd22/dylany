@@ -1,0 +1,212 @@
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+    direction: rtl;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+
+h1 , h2 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+a , a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* start syle header containe button logo serch input */
+
+header {
+    height: auto;
+    padding: 10px 0;
+    
+}
+.container img {
+    height: 100px;
+}
+
+header .serch {
+    height: 40px;
+    background-color: #eee;
+}
+
+
+
+header .serch  input{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    background-color: #eee;
+    padding: 0 20px;
+}
+
+header button {
+    height: 40px;
+    width: auto;
+}
+
+/* start syle navbar containe 5 pages*/
+.navbar{
+    background-color: #eee;
+
+}
+
+.navbar-toggler:focus {
+
+    box-shadow: none;
+}
+
+nav .nav-item {
+    margin-left:50px;
+}
+
+.navbar .container .img{
+    text-align: center;
+}
+
+.navbar .container .img img{
+    height: 20px;
+}
+
+
+/* start syle Intro containe title and img*/
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: linear-gradient(rgb(72,0,72,0.8), rgba(73, 63, 63, 0.9)), url("../images/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 70vh;
+}
+
+.intro .text {
+    color:white;
+    text-align: center;
+}
+
+.intro .text h1 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.intro .text p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+
+section {
+    padding: 100px 0;
+}
+
+.title h2 {
+    width: 120px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    font-size: 24px;
+}
+
+.bagkround {
+    background: linear-gradient(rgb(72,0,72,0.8), rgba(73, 63, 63, 0.9)), url("../images/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abute-as p {
+    width: 60%;
+    line-height: 1.8;
+}
+
+
+.footer {
+    background: linear-gradient(rgba(55, 0, 55, 0.8), rgba(73, 63, 63, 0.9))
+}
+
+.text-muted {
+    color: white !important
+}
+
+
+
+/* Thise style for secont page explor */
+
+.pagination {
+    width: 250px;
+}
+
+article .carousel-item img {
+    height: 500px;
+    width: 100%;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 25vh auto;
+    direction: rtl;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: #ddd;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ddd;
+  }
+  
+  ::placeholder {
+    color: rgb(202, 198, 198);
+  }
+
+  @media (max-width:800px) {
+      header .login {
+        display: none;
+      }
+      nav .nav-item {
+        margin-top: 10px;
+        margin-left:10px;
+    }
+
+      .intro .text h1 {
+        width: 80%;
+    }
+    
+    .intro .text p {
+        width: 90%;
+        margin-left: auto;
+    }
+    .navbar-nav {
+        padding: 10px;
+    }
+    .abute-as p {
+        width: 100%;
+    }
+  }
